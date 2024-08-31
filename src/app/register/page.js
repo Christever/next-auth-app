@@ -1,7 +1,8 @@
 "use client";
 
 import ButtonsProviders from "../../components/ButtonsProviders";
-import FormLogin from "../../components/FormLogin";
+import FormRegister from "../../components/FormRegister";
+
 export default function Login() {
     return (
         <div
@@ -13,9 +14,9 @@ export default function Login() {
             rounded-3xl
             "
         >
-            <h1 className="text-center text-4xl mt-6">Connexion</h1>
+            <h1 className="text-center text-4xl mt-6">Inscription</h1>
             <div className="text-center">
-                <FormLogin />
+                <FormRegister />
             </div>
             <ButtonsProviders />
         </div>
